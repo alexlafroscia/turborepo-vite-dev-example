@@ -1,0 +1,17 @@
+{
+  "name": "compiled-package",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3",
+    "typescript": "^5.5.4"
+  }
+}

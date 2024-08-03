@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+
+    // Emit `.d.ts` files
+    "declaration": true,
+    // Allow VSCode to navigate to the source file of a dependency
+    // from an import
+    "declarationMap": true,
+
+    "sourceMap": true
+  }
+}
