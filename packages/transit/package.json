@@ -1,0 +1,10 @@
+{
+  "name": "transit-package",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dependencies": {
+    "compiled-package": "workspace:^"
+  }
+}
