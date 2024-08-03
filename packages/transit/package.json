@@ -2,7 +2,7 @@
   "name": "transit-package",
   "type": "module",
   "exports": {
-    ".": "./lib/index.js"
+    ".": "./src/index.js"
   },
   "dependencies": {
     "compiled-package": "workspace:^"
