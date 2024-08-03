@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { add } from "transit-package";
+  import { add } from "just-in-time-package";
 
   let count: number = 0;
 

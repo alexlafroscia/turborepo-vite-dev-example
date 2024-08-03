@@ -1,0 +1,14 @@
+{
+  "name": "just-in-time-package",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "transit-package": "workspace:^"
+  },
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3",
+    "typescript": "^5.5.4"
+  }
+}

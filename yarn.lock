@@ -513,9 +513,9 @@ __metadata:
   dependencies:
     "@sveltejs/vite-plugin-svelte": "npm:^3.1.1"
     "@tsconfig/svelte": "npm:^5.0.4"
+    just-in-time-package: "workspace:^"
     svelte: "npm:^4.2.18"
     svelte-check: "npm:^3.8.4"
-    transit-package: "workspace:^"
     tslib: "npm:^2.6.3"
     turbo: "npm:^2.0.11"
     typescript: "npm:^5.2.2"
@@ -1161,6 +1161,16 @@ __metadata:
   checksum: 4f907fb78d7b712e11dea8c165fe0921f81a657d3443dde75359ed52eb2b5d33ce6773d97985a089f09a65edd80b11cb75c767b57ba47391fee4c969f7215c96
   languageName: node
   linkType: hard
+
+"just-in-time-package@workspace:^, just-in-time-package@workspace:packages/just-in-time":
+  version: 0.0.0-use.local
+  resolution: "just-in-time-package@workspace:packages/just-in-time"
+  dependencies:
+    "@tsconfig/node21": "npm:^21.0.3"
+    transit-package: "workspace:^"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
 
 "kleur@npm:^4.1.5":
   version: 4.1.5

@@ -9,9 +9,6 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json"
   },
-  "dependencies": {
-    "transit-package": "workspace:^"
-  },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@tsconfig/svelte": "^5.0.4",
@@ -21,5 +18,8 @@
     "turbo": "^2.0.11",
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "just-in-time-package": "workspace:^"
   }
 }
