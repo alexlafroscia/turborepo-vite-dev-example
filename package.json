@@ -3,6 +3,7 @@
   "packageManager": "yarn@4.0.2",
   "private": true,
   "scripts": {
+    "build": "turbo build --filter=app",
     "dev": "turbo watch dev --filter=app"
   },
   "workspaces": [
