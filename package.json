@@ -2,6 +2,9 @@
   "name": "turbo-dev-experience-example",
   "packageManager": "yarn@4.0.2",
   "private": true,
+  "scripts": {
+    "dev": "turbo watch dev --filter=app"
+  },
   "workspaces": [
     "app",
     "packages/*"
